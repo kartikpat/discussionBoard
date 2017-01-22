@@ -5,7 +5,7 @@ RUNNING THE APP
 
 Clone the app to your system -
 
-git clone https://github.com/ArunMichaelDsouza/meteor-discussion-board.git
+git clone https://github.com/kartikpat/discussionBoard
 
 
 Make sure you have meteor installed, then go to the project directory via command line and type -
