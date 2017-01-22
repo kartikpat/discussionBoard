@@ -1,0 +1,27 @@
+<!-- Comment section View -->
+
+<button id="logout" ng-click="comments.logout()" class="btn btn-danger">Logout</button>
+	    
+		<div class="form">
+			<h1>
+				Welcome to the Discussion board
+			</h1>
+
+			<form class="loginform">
+			<div class="form-group">
+			<label for="text">Comment</label>
+				<textarea ng-model="comments.comment.text" class="form-control" rows="3" name="text" id="text" placeholder="Add Comment..."></textarea>
+             </div>
+				<div class="form-group">
+				<button ng-click="comments.submit()" class="btn btn-primary" type="submit">Add Comment</button>
+				</div>
+			</form>
+
+        </div>
+
+		<div class="quotes">
+			<blockquote class="blockquote" ng-repeat="comment in comments.comments">
+				<p><q>{{comment.text}}</q></p>
+				<footer>{{comment.email}}</footer>
+			</blockquote>
+        </div>

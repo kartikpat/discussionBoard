@@ -1,0 +1,23 @@
+
+<div class="form">
+
+  <h1>Login/Register</h1>
+
+
+
+<!-- Login/Register Form -->
+<form>
+ <div class="form-group">
+	<label for="email">Email</label>
+	<input ng-model="login.user.email" class="form-control" id="email" type="email" placeholder="Enter your email" name="email" required/>
+ </div>
+  <div class="form-group">
+	<label for="password">Password</label>
+	<input ng-model="login.user.password" class="form-control" id="password" type="password" placeholder="Enter your password" name="password" required/>
+	</div>
+ <div class="form-group">
+ 	<button  ng-click="login.submit()" class="btn btn-success" type="submit">Login</button>
+ </div> 
+</form>
+
+</div>

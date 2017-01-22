@@ -1,0 +1,72 @@
+/* CSS declarations go here */
+.form{
+	  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+      width: 50%;
+      margin: 100px auto;
+      background-color: #DFFFB8;
+      padding: 2em;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.form-group label{
+	 font-family:Georgia, Times, "Times New Roman", serif;
+}
+
+#logout {
+
+	position: fixed;
+	right: 5%;
+	top: 5%;
+}
+
+ div.quotes {
+      width:50%;
+      margin: 20px auto;
+      font-family: 'Muli', sans-serif;
+      padding: 1em;
+    }
+
+
+    .blockquote {
+      border-left: 5px solid #79B473;
+      margin: 30px 0; 
+      color: #000000;
+    }
+     
+     .blockquote:not(:first-of-type) {
+        /* this styling applies to all blockquotes EXCEPT the first one */
+       margin-bottom: 0;
+   }
+
+    .blockquote p {
+  
+      font-size: 16px;
+      line-height: 2;
+
+    }
+ 
+    .blockquote footer {
+      margin-top: .3em;
+      padding: 0;
+      font-size: 14px;
+      text-align: left;
+      font-style: italic;
+    }
+   
+   .blockquote:nth-of-type(even){
+   /* this styling will apply to all even numbered bloquotes */
+      text-align: right;
+      border-left: none;
+      border-right: 5px solid #41658A;
+  }  
+
+  blockquote:nth-of-type(even) footer{
+  text-align: right;
+  }
+
